@@ -2,7 +2,7 @@
 
 ### How to use this demo
 
-1. Clone this repository
+1. Clone this repository `git clone https://github.com/begueradj/error-adonisjs-extend-response-class.git`
 2. Run the dependencies: `npm install`
 3. Run the server: `adonis serve --dev`
 4. Go to http://127.0.0.1:3333/foo
@@ -19,4 +19,6 @@ Response.macro('sendStatus', function (status) {
   this.status(status).send(status)
 })
 ```
+
+Issue opened [here](https://github.com/adonisjs/docs/issues/353)
 
